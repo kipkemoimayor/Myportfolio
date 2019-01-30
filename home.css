@@ -1,214 +1,224 @@
-html{
-	background-image:url(bg1.jpg);
-	background-repeat:no-repeat;
-	background-size:cover;
-	overflow:auto;
-	background-attachment: fixed;
-}
+    html{
+        background-image:url(bg1.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        overflow:auto;
+        background-attachment: fixed;
+    }
 
 
-#navigation{
-	background-color: #333;
-	
-	white-space: nowrap;
-	
-	box-shadow:0px 0px 4px #000;
-	margin:auto;
-	
-	
-	
-	
-	
-	
-}
-	
-nav a{
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px;
-	text-decoration: none;
-	text-transform:uppercase;
-	
-	
-}
-nav a:hover{
-	background-color: #777;
-	color:#842641;
-	
-}
-#welcome{
-	padding:40px;
-	background-color:#F0FFFF;
-	margin:auto;
-	text-align:center;
-	color:#851245;
-	font-size:35px;
-	font-family:Georgia;
-	
-	
-}
-#me{
-	height:100%;
-	width:60%;
-	display:inline-block;
-	border:1px solid red;
-	background-color:white;
-	border:3px solid white;
-	box-shadow:2px 2px 5px 	#000000,-2px -2px 5px #000000;
-	
-	
-	
-	
-}
-#me img{
-float:right;
-border:2px solid white;
-margin:2px;
-display:inline-block;
+    #navigation{
+        background-color: #333;
 
-}
+        white-space: nowrap;
 
-#me p{
-	font-family:Times New Roman;
-	font-size:20px;
-}
-table{
-	border:1px solid red;
-	height:100%;
-	width:50%;
-	border-collapse:collapse;
-	
-}
-th,tr,td{
-	width:50%;
-	border:1px solid red;
-	border-collapse:collapse;
-}
-#head {
-	height:240px;
-	width:100%;
-	background-image:url(cover.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-	background-size:cover;
-	margin:auto;
-	
-	
-}
-#name{
-	color:#008B8B;
-	background-color:#FDF5E6;
-	padding:30px;
-	margin-left:1.5em;
-	
-	position:relative;
-	top:-20px;
-	box-shadow:2px 2px 5px #696969, -3px 0 5px #696969;
-	width:50%;
-	
-	
-}
-#name:hover{
-	color:#191970;
-	background-color:
-	
-	
-}
-#po{
-	font-family:Courier New;
-	font-size:16px;
-}
-#ka{
-	color:#6495ED;
-	font-family:Georgia;
-	font-size:30px;
-	
-}
-#cards div{
-	height:10em;
-	width:24.5em;
-	background-color:#E6E6FA;
-	display:flex;
-	flex-direction:column;
-	margin:10px;
-	display:inline-block;
-	
-	
-	
-}
-#cards {
-	
-	float:right;
-	display:flex;
-	flex-direction:column;
-	text-align:center;
-	
-	
-}
-#link a{
-	text-decoration:none;
-	
-	margin:0.5em;
-	display:inline-block;
-	color:#178521;
-	
-}
-#link a:hover{
-	text-decoration:underline;
-}
-
-
-h3{
-	text-align:center;
-	color:	#A52A2A;
-}
-h4{
-	color:blue;
-	font-family:Georgia;
-	font-size:19px;
-}
-footer{
-	padding:0.9em;
-	background-color:#569841;
-	text-align:center;
-}
-#contacts{
-	color:#178521;
-	
-}
-#project{
-	width:70%;
-	margin:auto;
-	border:1px solid white;
-	background-color:white;
-	color:#008B8B;
-	
-	
-}
-#vision{
-	width:70%;
-	margin:auto;
-	border:1px solid white;
-	background-color:white;
-	color:#008B8B;
-	
-}
-#android{
-	width:70%;
-	margin:auto;
-	border:1px solid white;
-	background-color:white;
-	color:#008B8B;
-	
-	
-}
-	
+        box-shadow:0px 0px 4px #000;
+        margin:auto;
 
 
 
 
 
 
+    }
 
-	
+    nav a{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        text-transform:uppercase;
+
+
+    }
+    nav a:hover{
+        background-color: #777;
+        color:#842641;
+
+    }
+    #welcome{
+        padding:40px;
+        background-color:#F0FFFF;
+        margin:auto;
+        text-align:center;
+        color:#851245;
+        font-size:35px;
+        font-family:Georgia;
+
+
+    }
+    #me{
+        height:100%;
+        width:60%;
+        display:inline-block;
+        border:1px solid red;
+        background-color:white;
+        border:3px solid white;
+        box-shadow:2px 2px 5px 	#000000,-2px -2px 5px #000000;
+
+
+
+
+    }
+    #me img{
+    float:right;
+    border:2px solid white;
+    margin:2px;
+    display:inline-block;
+        border-radius: 10px;
+
+
+    }
+
+    #me p{
+        font-family:Times New Roman;
+        font-size:20px;
+    }
+    table{
+        border:1px solid red;
+        height:100%;
+        width:50%;
+        border-collapse:collapse;
+
+    }
+    th,tr,td{
+        width:50%;
+        border:1px solid red;
+        border-collapse:collapse;
+    }
+    #head {
+        height:240px;
+        width:100%;
+        background-image:url(cover.jpg);
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        margin:auto;
+
+
+    }
+    #name{
+        color:#008B8B;
+        background-color:#FDF5E6;
+        padding:30px;
+        margin-left:1.5em;
+
+        position:relative;
+        top:-20px;
+        box-shadow:2px 2px 5px #696969, -3px 0 5px #696969;
+        width:50%;
+
+
+    }
+    #name:hover{
+        color:#191970;
+        background-color:
+
+
+    }
+    #po{
+        font-family:Courier New;
+        font-size:16px;
+    }
+    #ka{
+        color:#6495ED;
+        font-family:Georgia;
+        font-size:30px;
+
+    }
+    #cards div{
+        height:10em;
+        width:24.5em;
+        background-color:#E6E6FA;
+        display:flex;
+        flex-direction:column;
+        margin:10px;
+        display:inline-block;
+
+
+
+    }
+    #cards {
+
+        float:right;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+
+
+    }
+    #link a{
+        text-decoration:none;
+
+        margin:0.5em;
+        display:inline-block;
+        color:#178521;
+
+    }
+    #link a:hover{
+        text-decoration:underline;
+    }
+
+
+    h3{
+        text-align:center;
+        color:	#A52A2A;
+    }
+    h4{
+        color:blue;
+        font-family:Georgia;
+        font-size:19px;
+    }
+    footer{
+        padding:0.9em;
+        background-color:#569841;
+        text-align:center;
+    }
+    #contacts{
+        color:#178521;
+
+    }
+    #project{
+        width:70%;
+        margin:auto;
+        border:1px solid white;
+        background-color:white;
+        color:#008B8B;
+
+
+    }
+    #vision{
+        width:70%;
+        margin:auto;
+        border:1px solid white;
+        background-color:white;
+        color:#008B8B;
+
+    }
+    #android{
+        width:70%;
+        margin:auto;
+        border:1px solid white;
+        background-color:white;
+        color:#008B8B;
+
+
+    }
+    #other >a{
+        padding: 10px;
+        color:darkred;
+
+    }
+    #other >a:hover{
+        background-color: aqua;
+        color: antiquewhite;
+    }
+
+
+
+
+
+
+
+
