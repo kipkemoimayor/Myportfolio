@@ -128,7 +128,7 @@
 
     }
     #cards div{
-        height:10em;
+        height:auto;
         width:24.5em;
         background-color:#E6E6FA;
         display:flex;
@@ -158,6 +158,7 @@
     }
     #link a:hover{
         text-decoration:underline;
+        color: cadetblue;
     }
 
 
