@@ -4,7 +4,10 @@
         background-size:cover;
         overflow:auto;
         background-attachment: fixed;
+        background-position: center  center;
+        
     }
+
 
 
     #navigation{
